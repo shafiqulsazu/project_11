@@ -1,0 +1,223 @@
+/* All Common CSS Start  */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+.bb{
+   border-bottom: 2px solid  red;
+}
+.bb_2{
+    border-bottom: 2px solid  red;
+ }
+ .bb_3{
+    border-bottom: 2px solid  red;
+ }
+/* All Common CSS End */
+
+/* Header Part Start  */
+.navbar{
+    background: #F3F3F3;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #181717;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    
+}
+/* Header Part End  */
+
+/* About Part CSS Start  */
+#about_part{
+   padding-top: 250px;
+   background: #F3F3F3;
+
+}
+
+.about_head h1{
+    color:  #181717;
+    font-family: 'DM Sans', sans-serif;
+font-size: 60px;
+font-weight: 500;
+line-height: 97.2%; 
+letter-spacing: -1.8px;
+padding-bottom: 138px;
+}
+
+.about_head  i{
+    font-size: 38px;
+    padding-bottom: 120px;
+}
+.about_text p {
+    color: #606060;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 117%;
+    letter-spacing: -0.96px;
+    padding: 0 37px;
+}
+/* About Part CSS End  */
+
+/* Project Part CSS Start  */
+#project_part{
+    background: #F3F3F3;
+    padding-bottom: 100px; 
+}
+
+.project_head h3{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 121.5%; 
+letter-spacing: -0.54px;
+padding-bottom: 30px;
+}
+.project_head h5{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+}
+.project_head p{
+    color: #606060;
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 121.5%;
+letter-spacing: -0.42px;
+padding-top: 40px;
+padding-bottom: 170px;
+}
+.project_head h6{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+text-decoration-line: underline;
+padding-bottom: 105px;
+}
+.project_part_img img{
+    height: 400px !important;
+}
+#project_part_2{
+    background: #F3F3F3;
+    padding-bottom: 100px; 
+}
+.project_head_2 h3{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 121.5%; 
+letter-spacing: -0.54px;
+padding-bottom: 30px;
+}
+.project_head_2 h5{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+padding-bottom: 240px;
+}
+.project_head_2 h6{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+text-decoration-line: underline;
+padding-bottom: 105px;
+}
+#project_part_3{
+    background: #F3F3F3;
+    padding-bottom: 100px; 
+}
+.project_head_3 h3{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 121.5%; 
+letter-spacing: -0.54px;
+padding-bottom: 30px;
+}
+.project_head_3 h5{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+padding-bottom: 260px;
+}
+.project_head_3 h6{
+    color: #181717;
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+text-decoration-line: underline;
+padding-bottom: 105px;
+}
+/* Project Part CSS End  */
+
+/* Footer Part CSS Start  */
+#footer_part{
+    background: #F3F3F3;
+}
+.footer_head{
+   display: flex;
+ 
+}
+.navbar_brand{
+    color:  #2429AF;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 120%; 
+    letter-spacing: -0.63px;
+    padding-bottom: 65px;
+}
+.footer_part_nav{
+    text-align: left;
+   padding-left: 540px;
+}
+.footer_part_nav ul li{
+    display: inline-block;
+    padding-left: 45px;
+}
+.footer_part_nav ul li a {
+	color:  #181717;
+font-family: DM Sans;
+font-size: 21px;
+font-weight: 500;
+line-height: 120%; 
+letter-spacing: -0.63px;
+}
+
+
+
+/* Footer Part CSS End */

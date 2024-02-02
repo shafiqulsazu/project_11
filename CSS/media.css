@@ -1,0 +1,124 @@
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {  }
+
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+ /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {  }
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (min-width: 320px) and (max-width: 575.98px) { 
+    /* All  Media Start  */
+    .navbar-toggler {
+        color: green;
+        font-size: 30px;
+    }
+    .navbar-nav {
+        text-align: center;
+        background: gold;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: teal;
+    }
+    /* All  Media End */
+
+    /* Header Part Start  */
+    #about_part{
+        padding-top: 50px;
+    }
+    .about_head h1 {
+        font-size: 50px;
+        line-height: 100.2%;
+        padding-bottom: 80px;
+    }
+    .about_head i {
+        padding-bottom: 62px;
+    }
+    .about_text p {
+        font-size: 20px;
+        padding: 0px 5px;
+        padding-bottom: 40px;
+    }
+    /* Header Part End  */
+
+    /* Project Part Start  */
+    .project_head h5 {
+        font-size: 18px;
+        line-height: 122.5%;
+        text-align: justify;
+    }
+    .project_head p {
+        
+        font-size: 13px;
+      
+        line-height: 127.5%;
+        padding-bottom: 85px;
+    }
+    .project_head h6 {
+        padding-bottom: 75px;
+    }
+    #project_part {
+        padding-bottom: 50px;
+    }
+    .project_part_img img {
+        height: 300px !important;
+    }
+    .project_head_2 h5 {
+        font-size: 16px;
+        line-height: 126.5%;
+        text-align: justify;
+        padding-bottom: 70px;
+    }
+   .project_head_2 h6 {
+            padding-bottom: 75px;
+    }
+  
+    #project_part_2 {
+        padding-bottom: 50px;
+    }
+    .project_head_3 h5 {
+        font-size: 16px;
+        line-height: 123.5%;
+        padding-bottom: 75px;
+    }
+    .project_head_3 h6 {
+        padding-bottom: 75px;
+    }
+    .project_head_3 h5 {
+        padding-bottom: 45px;
+    }
+    #project_part_3 {
+        padding-bottom: 52px;
+    }
+    /* Project Part End */
+
+    /* Footer Part Start  */
+    .navbar_brand {
+        font-size: 9px;
+        padding-bottom: 30px;
+        white-space: nowrap;
+    }
+    .footer_part_nav {
+        padding-left: 1px;
+        margin-top: -8px;
+    }
+    .footer_part_nav ul li a {
+        font-size: 9px;
+        display: block;
+        float: left;
+        margin: 0px -27px;
+    }
+    /* Footer Part End */
+  }
+
+
